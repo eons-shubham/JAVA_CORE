@@ -1,9 +1,22 @@
 public class OOPs{
     public static void main(String[] args) {
         singleton singletonClassObjectInstance = singleton.getter();
+
+        
+
     }
 }
 
+class localTest{
+
+    // unassigned values of the instance variable will be 0, false, null(because String is a class)
+    int x;
+    boolean flg;
+    String name;
+    void getter(){
+        System.out.println(x + " " + name);
+    }
+}
 
 class singleton{
 
