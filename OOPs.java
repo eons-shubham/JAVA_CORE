@@ -21,14 +21,26 @@ public class OOPs{
  
  str1 == str2 => false;
 
- because in case1 both string were in constant pool and their values were also same
+ because in case1 both string were in `constant pool` and their values were also same
  in case2 both string values were same but str1 was in constant pool and str2 was in
  heap(hence different memory location) therefore false
 
  in case2 we can use str1.equals(str2) => return true;
+
+ `in constant pool variable with same values point to same memory address`
+ `video https://www.youtube.com/watch?v=Bj9Mx_Lx3q4`
  
  */
 
+
+/*
+    final keyword with variable methods and class
+    
+    a final variable can't be assigned(const in java is final)
+    a final method can't be override (using extends keyword then method overriding)
+    a final class can't have children class
+    
+*/
 
 
 // defautl instance variable values
