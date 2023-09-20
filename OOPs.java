@@ -7,6 +7,32 @@ public class OOPs{
     }
 }
 
+/*
+ (==) vs equals()
+ Case1
+ String str1 = "hello";
+ String str2 = "hello";
+ 
+ str1 == str2 => true;
+  
+ Case2
+ String str1 = "hello";
+ String str2 = new String("hello");
+ 
+ str1 == str2 => false;
+
+ because in case1 both string were in constant pool and their values were also same
+ in case2 both string values were same but str1 was in constant pool and str2 was in
+ heap(hence different memory location) therefore false
+
+ in case2 we can use str1.equals(str2) => return true;
+ 
+ */
+
+
+
+// defautl instance variable values
+
 class localTest{
 
     // unassigned values of the instance variable will be 0, false, null(because String is a class)
@@ -17,6 +43,8 @@ class localTest{
         System.out.println(x + " " + name);
     }
 }
+
+
 
 class singleton{
 
@@ -30,6 +58,7 @@ class singleton{
         return singletonClassObject;
     }
 }
+
 
 //instance variables vs local variables
 
