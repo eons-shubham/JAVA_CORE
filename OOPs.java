@@ -1,38 +1,38 @@
-public class OOPs{
-    public static void main(String[] args) {
-        singleton singletonClassObjectInstance = singleton.getter();
-    }
-}
+// public class OOPs{
+//     public static void main(String[] args) {
+//         singleton singletonClassObjectInstance = singleton.getter();
+//     }
+// }
 
 
-class singleton{
+// class singleton{
 
-    static singleton singletonClassObject = new singleton();
+//     static singleton singletonClassObject = new singleton();
 
-    private singleton(){
+//     private singleton(){
 
-    }
+//     }
 
-    static singleton getter(){
-        return singletonClassObject;
-    }
-}
+//     static singleton getter(){
+//         return singletonClassObject;
+//     }
+// }
 
-//instance variables vs local variables
+// //instance variables vs local variables
 
-class instanceVariables{
+// class instanceVariables{
 
-    // the variables name and age will be available to all function/methods of this class
-    String name;
-    int age;
+//     // the variables name and age will be available to all function/methods of this class
+//     String name;
+//     int age;
 
-    // the variables localName and localAge are restricted to the setter method scope only
-    void setter(String localName, int localAge){
-        // some code
-    }
+//     // the variables localName and localAge are restricted to the setter method scope only
+//     void setter(String localName, int localAge){
+//         // some code
+//     }
 
-    void getter(){
-        // some code
-    }
+//     void getter(){
+//         // some code
+//     }
 
-}
+// }
