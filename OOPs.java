@@ -85,6 +85,21 @@ public class OOPs{
 
 */
 
+/*
+    shallow copy vs deep copy
+
+    shallow copy :- two variables pointing to same memory location
+    animal obj1 = new animal();
+    animal obj2 = obj1;
+
+
+    deep copy :- two varibles pointing to different memory location but values within them are same
+    animal obj1 = new animal()
+    animal obj2 = new animal()
+
+    obj2.name = obj1.name;
+    
+*/
 
 // defautl instance variable values
 
