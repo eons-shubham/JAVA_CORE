@@ -42,6 +42,28 @@ public class OOPs{
     
 */
 
+/*
+    final, finally, finalize
+
+    final : keyword
+
+    finally : block | the piece of code written inside the finally block will get executed no matter what
+    its generally used with try catch block
+
+    try{
+        return 3;
+    }
+    catch{
+        return 4;
+    }
+    finally{
+        return 5;
+    }
+    output will be 5 finally will execute no matter what
+
+    finalize : method | just before the garbage collector is called this method is executed
+*/
+
 
 // defautl instance variable values
 
