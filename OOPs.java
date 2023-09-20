@@ -64,6 +64,27 @@ public class OOPs{
     finalize : method | just before the garbage collector is called this method is executed
 */
 
+/*
+    super keyword
+    used to invoke the parent class construct/method
+    
+    eg :-
+
+    class parent{
+        void sing(){
+            sout("parent is singing");
+        }
+    }
+
+    class child{
+        void sing(){
+            super.sing(); -> parent is singing
+            sout("child is singing")
+        }
+    }
+
+*/
+
 
 // defautl instance variable values
 
